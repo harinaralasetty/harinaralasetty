@@ -10,7 +10,7 @@ Senior Data Scientist at [Turing](https://www.turing.com), based in Vijayawada, 
 | Project | What it is | Stack |
 |---|---|---|
 | [**CORAG**](https://github.com/harinaralasetty/CORAG) | Completely open-source agentic, multimodal RAG: PDFs, audio, conversational memory, HNSW indexing and reranking | Python, LLMs, embeddings |
-| [**agent_relay**](https://github.com/harinaralasetty/agent_relay) | Local agent-to-agent messaging over MCP for Codex CLI, Claude Code and LiteLLM models, with SQLite mailboxes and resumable sessions | Python, MCP, SQLite |
+| [**Agent Relay**](https://github.com/harinaralasetty/agent-relay) | Local agent-to-agent messaging over MCP for Codex CLI, Claude Code and LiteLLM models, with SQLite mailboxes and resumable sessions | Python, MCP, SQLite |
 | [**Caffeinate UI**](https://github.com/harinaralasetty/caffeinate-ui) | macOS menu-bar app that keeps your Mac awake for long-running agents and builds. Install with `brew install --cask harinaralasetty/tap/caffeinate-ui` | Swift, AppKit, IOKit |
 | [**CLARA**](https://github.com/harinaralasetty/CLARA) | Clinical retrieval assistant that answers clinicians' questions from patient history, built on CORAG (work in progress) | Python, RAG, agents |
 | [**Generative Upscaling**](https://github.com/harinaralasetty/Performance-Efficient-Generative-Upscaling-for-Image-Generation) | Diffusion + ESRGAN pipeline for photorealistic 2048x2048 images on limited GPUs | Stable Diffusion, ESRGAN |

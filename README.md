@@ -1,7 +1,7 @@
 # Hari Naralasetty
 
 **AI/ML Engineer building agentic systems, multimodal RAG and developer tools.**
-Senior Data Scientist at [Turing](https://www.turing.com), based in Vijayawada, India.
+Senior Data Scientist at [Turing](https://www.turing.com), based in India.
 
 4+ years building machine learning and generative AI systems: LLM agents, retrieval-augmented generation over text, audio and images, RLHF fine-tuning and model-inference optimisation (vLLM, PyTorch serving, GPU acceleration).
 

@@ -9,8 +9,10 @@ Senior Data Scientist at [Turing](https://www.turing.com), based in India.
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**CORAG**](https://github.com/harinaralasetty/CORAG) | Completely open-source agentic, multimodal RAG: PDFs, audio, conversational memory, HNSW indexing and reranking | Python, LLMs, embeddings |
+| [**CORAG**](https://github.com/harinaralasetty/CORAG) | Open-source RAG chat for PDFs and recordings: Gemini, Claude or local Ollama models, HNSW search, answers that name their source file; runs with one `docker run` | Python, LLMs, embeddings |
+| [**Underhood**](https://github.com/harinaralasetty/underhood) | Offline static inspector for macOS apps and Windows executables: entitlements, permissions, launch items and endpoints, each with evidence. `brew install harinaralasetty/tap/underhood` | Go |
 | [**Agent Relay**](https://github.com/harinaralasetty/agent-relay) | Local agent-to-agent messaging over MCP for Codex CLI, Claude Code and LiteLLM models, with SQLite mailboxes and resumable sessions | Python, MCP, SQLite |
+| [**indic-legacy-pdf**](https://github.com/harinaralasetty/indic-legacy-pdf) | Converts PDFs with legacy or broken Indic text layers to Unicode: Hindi and Marathi legacy-font encodings, Telugu glyph-ID recovery | Python, PDF, fonts |
 | [**Caffeinate UI**](https://github.com/harinaralasetty/caffeinate-ui) | macOS menu-bar app that keeps your Mac awake for long-running agents and builds. Install with `brew install --cask harinaralasetty/tap/caffeinate-ui` | Swift, AppKit, IOKit |
 | [**CLARA**](https://github.com/harinaralasetty/CLARA) | Clinical retrieval assistant that answers clinicians' questions from patient history, built on CORAG (work in progress) | Python, RAG, agents |
 | [**Generative Upscaling**](https://github.com/harinaralasetty/Performance-Efficient-Generative-Upscaling-for-Image-Generation) | Diffusion + ESRGAN pipeline for photorealistic 2048x2048 images on limited GPUs | Stable Diffusion, ESRGAN |

@@ -31,7 +31,6 @@ Senior Data Scientist at [Turing](https://www.turing.com), based in India. 4+ ye
 </tr>
 </table>
 
-More: [**indic-legacy-pdf**](https://github.com/harinaralasetty/indic-legacy-pdf) turns legacy-encoded Hindi, Marathi and Telugu PDFs into Unicode · [**Plum Plaza**](https://github.com/harinaralasetty/plum-plaza) is three browser games in one town ([play it](https://harinaralasetty.github.io/plum-plaza/))
 
 ## Try one in a minute
 
@@ -46,6 +45,8 @@ brew install --cask harinaralasetty/tap/caffeinate-ui
 
 ## Also built
 
+- [**indic-legacy-pdf**](https://github.com/harinaralasetty/indic-legacy-pdf): turns legacy-encoded Hindi, Marathi and Telugu PDFs into Unicode
+- [**Plum Plaza**](https://github.com/harinaralasetty/plum-plaza): three original browser games in one illustrated town ([play it](https://harinaralasetty.github.io/plum-plaza/))
 - [**CLARA**](https://github.com/harinaralasetty/CLARA): answers clinicians' questions from a patient's history, built on CORAG (work in progress)
 - [**Generative Upscaling**](https://github.com/harinaralasetty/Performance-Efficient-Generative-Upscaling-for-Image-Generation): diffusion + ESRGAN for 2048×2048 images on limited GPUs
 

@@ -11,34 +11,27 @@ Senior Data Scientist at [Turing](https://www.turing.com), based in India. 4+ ye
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/harinaralasetty/CORAG"><img src="https://raw.githubusercontent.com/harinaralasetty/CORAG/main/Screenshot.png" alt="CORAG answering a question from an uploaded PDF with a local Ollama model"></a>
-<br><b><a href="https://github.com/harinaralasetty/CORAG">CORAG</a></b> <img src="https://img.shields.io/github/stars/harinaralasetty/CORAG?style=social" alt="GitHub stars for CORAG"><br>
-Chat with your PDFs, notes and recordings. Answers name the file and page they came from. Gemini, Claude, or a local Ollama model with no API key.
+<a href="https://github.com/harinaralasetty/CORAG"><img src="https://raw.githubusercontent.com/harinaralasetty/CORAG/main/docs/assets/social-preview.png" alt="CORAG: chat with your PDFs, notes and recordings; answers name the file and page" width="100%"></a>
+<b><a href="https://github.com/harinaralasetty/CORAG">CORAG</a></b>: chat with your PDFs, notes and recordings. Gemini, Claude, or a local Ollama model with no API key.
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/harinaralasetty/underhood"><img src="https://raw.githubusercontent.com/harinaralasetty/underhood/main/docs/assets/hero.svg" alt="Underhood summarising what macOS Calculator is allowed to do"></a>
-<br><b><a href="https://github.com/harinaralasetty/underhood">Underhood</a></b><br>
-What can this app touch? An offline inspector for macOS apps and Windows executables. It never runs the app, and every finding cites its evidence.
+<a href="https://github.com/harinaralasetty/underhood"><img src="https://raw.githubusercontent.com/harinaralasetty/underhood/main/docs/assets/social-preview.png" alt="Underhood: offline static analyzer for macOS apps and Windows executables" width="100%"></a>
+<b><a href="https://github.com/harinaralasetty/underhood">Underhood</a></b>: see what an app is allowed to touch before you open it. It never runs the app.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/harinaralasetty/agent-relay"><img src="https://raw.githubusercontent.com/harinaralasetty/agent-relay/main/docs/assets/hero.svg" alt="Codex CLI and Claude Code passing five acknowledged messages through Agent Relay"></a>
-<br><b><a href="https://github.com/harinaralasetty/agent-relay">Agent Relay</a></b><br>
-Codex CLI and Claude Code message each other through one local MCP mailbox, with acknowledgments, linked replies and resumable sessions.
+<a href="https://github.com/harinaralasetty/agent-relay"><img src="https://raw.githubusercontent.com/harinaralasetty/agent-relay/main/docs/assets/social-preview.png" alt="Agent Relay: Codex CLI and Claude Code message each other" width="100%"></a>
+<b><a href="https://github.com/harinaralasetty/agent-relay">Agent Relay</a></b>: Codex CLI and Claude Code message each other through one local MCP mailbox.
 </td>
 <td width="50%" valign="top">
-<b><a href="https://github.com/harinaralasetty/caffeinate-ui">Caffeinate UI</a></b><br>
-Keep your Mac awake while your agents and builds run. A native menu-bar app with a session timer and coffee awards.
-<br><br>
-<b><a href="https://github.com/harinaralasetty/indic-legacy-pdf">indic-legacy-pdf</a></b><br>
-Turns PDFs with legacy or broken Indic text into Unicode: Hindi and Marathi font encodings, Telugu glyph-ID recovery.
-<br><br>
-<b><a href="https://github.com/harinaralasetty/plum-plaza">Plum Plaza</a></b><br>
-Three original browser games in one illustrated town. <a href="https://harinaralasetty.github.io/plum-plaza/">Play it</a>.
+<a href="https://github.com/harinaralasetty/caffeinate-ui"><img src="https://raw.githubusercontent.com/harinaralasetty/caffeinate-ui/main/docs/screenshots/social-preview.jpg" alt="Caffeinate UI: keep your Mac awake, keep your agents running" width="100%"></a>
+<b><a href="https://github.com/harinaralasetty/caffeinate-ui">Caffeinate UI</a></b>: a menu-bar app that keeps your Mac awake while agents and builds run.
 </td>
 </tr>
 </table>
+
+More: [**indic-legacy-pdf**](https://github.com/harinaralasetty/indic-legacy-pdf) turns legacy-encoded Hindi, Marathi and Telugu PDFs into Unicode · [**Plum Plaza**](https://github.com/harinaralasetty/plum-plaza) is three browser games in one town ([play it](https://harinaralasetty.github.io/plum-plaza/))
 
 ## Try one in a minute
 

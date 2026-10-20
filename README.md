@@ -1,34 +1,61 @@
-# Hari Naralasetty
+# Hi, I'm Hari 👋
 
-**AI/ML Engineer building agentic systems, multimodal RAG and developer tools.**
-Senior Data Scientist at [Turing](https://www.turing.com), based in India.
+**I build AI tools that run on your own machine:** chat with your documents, let coding agents talk to each other, and see what an app can do before you open it.
 
-4+ years building machine learning and generative AI systems: LLM agents, retrieval-augmented generation over text, audio and images, RLHF fine-tuning and model-inference optimisation (vLLM, PyTorch serving, GPU acceleration).
+Senior Data Scientist at [Turing](https://www.turing.com), based in India. 4+ years building LLM agents for production workflows, multimodal RAG (LLaMA, Whisper, BLIP), and LLM evaluation and RLHF fine-tuning.
 
-## Featured projects
+[LinkedIn](https://www.linkedin.com/in/harinaralasetty) · [Kaggle](https://www.kaggle.com/hknaralasetty) · [LeetCode](https://leetcode.com/harinaralasetty/)
 
-| Project | What it is | Stack |
-|---|---|---|
-| [**CORAG**](https://github.com/harinaralasetty/CORAG) | Open-source RAG chat for PDFs and recordings: Gemini, Claude or local Ollama models, HNSW search, answers that name their source file; runs with one `docker run` | Python, LLMs, embeddings |
-| [**Underhood**](https://github.com/harinaralasetty/underhood) | Offline static inspector for macOS apps and Windows executables: entitlements, permissions, launch items and endpoints, each with evidence. `brew install harinaralasetty/tap/underhood` | Go |
-| [**Agent Relay**](https://github.com/harinaralasetty/agent-relay) | Local agent-to-agent messaging over MCP for Codex CLI, Claude Code and LiteLLM models, with SQLite mailboxes and resumable sessions | Python, MCP, SQLite |
-| [**indic-legacy-pdf**](https://github.com/harinaralasetty/indic-legacy-pdf) | Converts PDFs with legacy or broken Indic text layers to Unicode: Hindi and Marathi legacy-font encodings, Telugu glyph-ID recovery | Python, PDF, fonts |
-| [**Caffeinate UI**](https://github.com/harinaralasetty/caffeinate-ui) | macOS menu-bar app that keeps your Mac awake for long-running agents and builds. Install with `brew install --cask harinaralasetty/tap/caffeinate-ui` | Swift, AppKit, IOKit |
-| [**CLARA**](https://github.com/harinaralasetty/CLARA) | Clinical retrieval assistant that answers clinicians' questions from patient history, built on CORAG (work in progress) | Python, RAG, agents |
-| [**Generative Upscaling**](https://github.com/harinaralasetty/Performance-Efficient-Generative-Upscaling-for-Image-Generation) | Diffusion + ESRGAN pipeline for photorealistic 2048x2048 images on limited GPUs | Stable Diffusion, ESRGAN |
-| [**Plum Plaza**](https://github.com/harinaralasetty/plum-plaza) | Three original browser games in one illustrated town. [Play it](https://harinaralasetty.github.io/plum-plaza/) | TypeScript, SVG |
+## Now shipping
 
-## What I work on
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/harinaralasetty/CORAG"><img src="https://raw.githubusercontent.com/harinaralasetty/CORAG/main/Screenshot.png" alt="CORAG answering a question from an uploaded PDF with a local Ollama model"></a>
+<br><b><a href="https://github.com/harinaralasetty/CORAG">CORAG</a></b> <img src="https://img.shields.io/github/stars/harinaralasetty/CORAG?style=social" alt="GitHub stars for CORAG"><br>
+Chat with your PDFs, notes and recordings. Answers name the file and page they came from. Gemini, Claude, or a local Ollama model with no API key.
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/harinaralasetty/underhood"><img src="https://raw.githubusercontent.com/harinaralasetty/underhood/main/docs/assets/hero.svg" alt="Underhood summarising what macOS Calculator is allowed to do"></a>
+<br><b><a href="https://github.com/harinaralasetty/underhood">Underhood</a></b><br>
+What can this app touch? An offline inspector for macOS apps and Windows executables. It never runs the app, and every finding cites its evidence.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/harinaralasetty/agent-relay"><img src="https://raw.githubusercontent.com/harinaralasetty/agent-relay/main/docs/assets/hero.svg" alt="Codex CLI and Claude Code passing five acknowledged messages through Agent Relay"></a>
+<br><b><a href="https://github.com/harinaralasetty/agent-relay">Agent Relay</a></b><br>
+Codex CLI and Claude Code message each other through one local MCP mailbox, with acknowledgments, linked replies and resumable sessions.
+</td>
+<td width="50%" valign="top">
+<b><a href="https://github.com/harinaralasetty/caffeinate-ui">Caffeinate UI</a></b><br>
+Keep your Mac awake while your agents and builds run. A native menu-bar app with a session timer and coffee awards.
+<br><br>
+<b><a href="https://github.com/harinaralasetty/indic-legacy-pdf">indic-legacy-pdf</a></b><br>
+Turns PDFs with legacy or broken Indic text into Unicode: Hindi and Marathi font encodings, Telugu glyph-ID recovery.
+<br><br>
+<b><a href="https://github.com/harinaralasetty/plum-plaza">Plum Plaza</a></b><br>
+Three original browser games in one illustrated town. <a href="https://harinaralasetty.github.io/plum-plaza/">Play it</a>.
+</td>
+</tr>
+</table>
 
-- **Agentic frameworks:** LLM agents that run tasks across client environments, built into production workflows
-- **RAG and search:** multimodal retrieval with LLaMA, vector search, Whisper and BLIP, with explainability via RAG Triad analysis
-- **LLM evaluation and RLHF:** error analysis of model reasoning and fine-tuning to cut error rates
-- **MLOps:** Docker, Kubernetes, GCP, AWS, Azure
+## Try one in a minute
+
+```sh
+# What is Calculator allowed to do? Nothing is launched, nothing is sent anywhere.
+brew install harinaralasetty/tap/underhood
+underhood /System/Applications/Calculator.app
+
+# Keep your Mac awake while an agent works (Apple silicon, macOS 13+)
+brew install --cask harinaralasetty/tap/caffeinate-ui
+```
+
+## Also built
+
+- [**CLARA**](https://github.com/harinaralasetty/CLARA): answers clinicians' questions from a patient's history, built on CORAG (work in progress)
+- [**Generative Upscaling**](https://github.com/harinaralasetty/Performance-Efficient-Generative-Upscaling-for-Image-Generation): diffusion + ESRGAN for 2048×2048 images on limited GPUs
 
 ## Tech
 
-Python · PyTorch · TensorFlow · Transformers · LangChain · Stable Diffusion · vLLM · SQL · Swift · C++ · Docker · Kubernetes · Airflow
-
-## Find me
-
-[LinkedIn](https://www.linkedin.com/in/harinaralasetty) · [Kaggle](https://www.kaggle.com/hknaralasetty) · [LeetCode](https://leetcode.com/harinaralasetty/)
+Python · PyTorch · TensorFlow · Transformers · LangChain · Stable Diffusion · vLLM · MCP · SQL · Go · Swift · TypeScript · C++ · Docker · Kubernetes · Airflow · GCP · AWS · Azure

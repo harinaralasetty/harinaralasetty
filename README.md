@@ -1,6 +1,6 @@
 # Hi, I'm Hari 👋
 
-**I build AI tools that run on your own machine:** chat with your documents, let coding agents talk to each other, and see what an app can do before you open it.
+**I build AI tools that run on your own machine:** turn any website into tools your agents can call, chat with your documents, see what an app can do before you open it, and let coding agents talk to each other.
 
 Senior Data Scientist at [Turing](https://www.turing.com), based in India. 4+ years building LLM agents for production workflows, multimodal RAG (LLaMA, Whisper, BLIP), and LLM evaluation and RLHF fine-tuning.
 
@@ -11,12 +11,22 @@ Senior Data Scientist at [Turing](https://www.turing.com), based in India. 4+ ye
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/harinaralasetty/site2mcp"><img src="https://raw.githubusercontent.com/harinaralasetty/site2mcp/main/docs/assets/social-preview.png" alt="site2mcp: turn any website into an MCP server your AI agents can call" width="100%"></a>
+<b><a href="https://github.com/harinaralasetty/site2mcp">site2mcp</a></b>: use a website once in your browser, and your AI agents can call it as MCP tools. On PyPI.
+</td>
+<td width="50%" valign="top">
 <a href="https://github.com/harinaralasetty/CORAG"><img src="https://raw.githubusercontent.com/harinaralasetty/CORAG/main/docs/assets/social-preview.png" alt="CORAG: chat with your PDFs, notes and recordings; answers name the file and page" width="100%"></a>
 <b><a href="https://github.com/harinaralasetty/CORAG">CORAG</a></b>: chat with your PDFs, notes and recordings. Gemini, Claude, or a local Ollama model with no API key.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/harinaralasetty/underhood"><img src="https://raw.githubusercontent.com/harinaralasetty/underhood/main/docs/assets/social-preview.png" alt="Underhood: offline static analyzer for macOS apps and Windows executables" width="100%"></a>
 <b><a href="https://github.com/harinaralasetty/underhood">Underhood</a></b>: see what an app is allowed to touch before you open it. It never runs the app.
+</td>
+<td width="50%" valign="top">
+<a href="https://harinaralasetty.github.io/math-experiments/"><img src="https://harinaralasetty.github.io/math-experiments/assets/results.png" alt="Math Experiments: AI agents find 1,456 new terms for open math sequences, checked by independent programs" width="100%"></a>
+<b><a href="https://harinaralasetty.github.io/math-experiments/">Math Experiments</a></b>: AI agents found 1,456 new terms for open OEIS sequences, each checked by two independent programs.
 </td>
 </tr>
 <tr>
@@ -35,6 +45,10 @@ Senior Data Scientist at [Turing](https://www.turing.com), based in India. 4+ ye
 ## Try one in a minute
 
 ```sh
+# Turn a recorded browser session (HAR) into tools your agents can call
+pipx install site2mcp
+site2mcp inspect session.har
+
 # What is Calculator allowed to do? Nothing is launched, nothing is sent anywhere.
 brew install harinaralasetty/tap/underhood
 underhood /System/Applications/Calculator.app

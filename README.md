@@ -25,18 +25,8 @@ Senior Data Scientist at [Turing](https://www.turing.com), based in India. 4+ ye
 <b><a href="https://github.com/harinaralasetty/underhood">Underhood</a></b>: see what an app is allowed to touch before you open it. It never runs the app.
 </td>
 <td width="50%" valign="top">
-<a href="https://harinaralasetty.github.io/math-experiments/"><img src="https://harinaralasetty.github.io/math-experiments/assets/results.png" alt="Math Experiments: AI agents find 1,456 new terms for open math sequences, checked by independent programs" width="100%"></a>
-<b><a href="https://harinaralasetty.github.io/math-experiments/">Math Experiments</a></b>: AI agents found 1,456 new terms for open OEIS sequences, each checked by two independent programs.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/harinaralasetty/agent-relay"><img src="https://raw.githubusercontent.com/harinaralasetty/agent-relay/main/docs/assets/social-preview.png" alt="Agent Relay: Codex CLI and Claude Code message each other" width="100%"></a>
+<a href="https://github.com/harinaralasetty/agent-relay"><img src="https://raw.githubusercontent.com/harinaralasetty/agent-relay/main/docs/assets/social-preview.png?v=2" alt="Agent Relay: Codex CLI and Claude Code message each other" width="100%"></a>
 <b><a href="https://github.com/harinaralasetty/agent-relay">Agent Relay</a></b>: Codex CLI and Claude Code message each other through one local MCP mailbox.
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/harinaralasetty/caffeinate-ui"><img src="https://raw.githubusercontent.com/harinaralasetty/caffeinate-ui/main/docs/screenshots/social-preview.jpg" alt="Caffeinate UI: keep your Mac awake, keep your agents running" width="100%"></a>
-<b><a href="https://github.com/harinaralasetty/caffeinate-ui">Caffeinate UI</a></b>: a menu-bar app that keeps your Mac awake while agents and builds run.
 </td>
 </tr>
 </table>
@@ -52,13 +42,12 @@ site2mcp inspect session.har
 # What is Calculator allowed to do? Nothing is launched, nothing is sent anywhere.
 brew install harinaralasetty/tap/underhood
 underhood /System/Applications/Calculator.app
-
-# Keep your Mac awake while an agent works (Apple silicon, macOS 13+)
-brew install --cask harinaralasetty/tap/caffeinate-ui
 ```
 
 ## Also built
 
+- [**Math Experiments**](https://harinaralasetty.github.io/math-experiments/): AI agents found 1,456 new terms for open OEIS sequences, each checked by two independent programs
+- [**Caffeinate UI**](https://github.com/harinaralasetty/caffeinate-ui): a menu-bar app that keeps your Mac awake while agents and builds run (`brew install --cask harinaralasetty/tap/caffeinate-ui`)
 - [**indic-legacy-pdf**](https://github.com/harinaralasetty/indic-legacy-pdf): turns legacy-encoded Hindi, Marathi and Telugu PDFs into Unicode
 - [**Plum Plaza**](https://github.com/harinaralasetty/plum-plaza): three original browser games in one illustrated town ([play it](https://harinaralasetty.github.io/plum-plaza/))
 - [**CLARA**](https://github.com/harinaralasetty/CLARA): answers clinicians' questions from a patient's history, built on CORAG (work in progress)

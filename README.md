@@ -11,7 +11,7 @@ Senior Data Scientist at [Turing](https://www.turing.com), based in India. 4+ ye
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/harinaralasetty/site2mcp"><img src="https://raw.githubusercontent.com/harinaralasetty/site2mcp/main/docs/assets/social-preview.png" alt="site2mcp: turn any website into an MCP server your AI agents can call" width="100%"></a>
+<a href="https://github.com/harinaralasetty/site2mcp"><img src="https://raw.githubusercontent.com/harinaralasetty/site2mcp/main/docs/assets/social-preview.png?v=2" alt="site2mcp: turn any website into an MCP server your AI agents can call" width="100%"></a>
 <b><a href="https://github.com/harinaralasetty/site2mcp">site2mcp</a></b>: use a website once in your browser, and your AI agents can call it as MCP tools. On PyPI.
 </td>
 <td width="50%" valign="top">
